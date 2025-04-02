@@ -2,8 +2,6 @@
   font-family: Arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
-  margin: 30px auto;
-  max-width: 600px;
   border-radius: 4px;
 }
 .Weather h1 {
@@ -25,6 +23,7 @@
 }
 .Weather .temperature {
   font-size: 64px;
+  padding-top: 5px;
 }
 
 .Weather img {
