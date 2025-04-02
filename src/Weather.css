@@ -1,3 +1,32 @@
 .Weather {
-  border: 1px solid;
+  font-family: Arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 4px;
+}
+.Weather h1 {
+  color: rgb(118, 118, 122);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+.Weather ul {
+  color: rgb(118, 118, 122);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Weather .temperature {
+  font-size: 64px;
+}
+
+.Weather img {
+  padding-bottom: 40px;
 }
