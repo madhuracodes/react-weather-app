@@ -32,3 +32,15 @@
 .Weather img {
   padding-bottom: 40px;
 }
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  text-decoration: none;
+}
+.Weather .unit a {
+  text-decoration: none;
+}
