@@ -1,0 +1,23 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast img {
+  font-size: 0.8rem;
+  padding-bottom: 0;
+}
+.WeatherForecast-day {
+  color: rgb(118, 118, 122);
+}
+.WeatherForecast-temperature-min {
+  color: rgb(186, 186, 203);
+}
+.WeatherForecast-temperature-max {
+  color: rgb(118, 118, 122);
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  filter: grayscale(30%);
+}
