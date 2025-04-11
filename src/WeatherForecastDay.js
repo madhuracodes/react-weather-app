@@ -11,7 +11,11 @@ export default function WeatherForecastDay(props) {
     <div>
       <div className="WeatherForecast-day">{day()}</div>
       <div className="WeatherForecast-icon">
-        <img src={props.forDay.condition.icon_url} className="weather-icon" />{" "}
+        <img
+          src={props.forDay.condition.icon_url}
+          alt={props.forDay.condition.description || "weather icon"}
+          className="weather-icon"
+        />{" "}
       </div>{" "}
       <div className="WeatherForecast-temperatures">
         <span className="WeatherForecast-temperature-max">
