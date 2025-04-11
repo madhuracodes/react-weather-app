@@ -6,11 +6,17 @@ import WeatherForecastDay from "./WeatherForecastDay";
 export default function WeatherForecast(props) {
   let [loaded, setLoaded] = useState(false);
   let [forecast, setForecast] = useState(null);
+
+  useEffect(() => {
+    setLoaded(false);
+  }, [props.data.coordinates]);
+
   function handleResponse(response) {
     console.log(response.data);
     setForecast(response.data.daily);
     setLoaded(true);
   }
+
   if (loaded) {
     return (
       <div className="WeatherForecast">
@@ -25,6 +31,8 @@ export default function WeatherForecast(props) {
                   </div>
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
